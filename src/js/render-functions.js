@@ -1,7 +1,6 @@
-'use strict';
 
-export function createMarkup(data, gallery) {
-    const markup = data.map(({
+export function createMarkup(data) {
+    return data.map(({
         webformatURL,
         largeImageURL,
         tags,
@@ -37,5 +36,4 @@ export function createMarkup(data, gallery) {
         </li>`;
     }).join("");
     
-    gallery.insertAdjacentHTML("beforeend", markup);
 };
