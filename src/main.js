@@ -111,7 +111,4 @@ function handleScrollView() {
     behavior: 'smooth',
   });
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 5e62bf8897c073ec39d01503e7595c707a69bd9e
